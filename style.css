@@ -1,4 +1,4 @@
-/* General Reset */
+/*Overall*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,6 +12,9 @@ body {
   background-color: #fffafc;
   color: #333;
 }
+
+/*list in the boxes(ask for help later to align with the titles in the text)*/
+
 
 /* Header */
 header {
@@ -34,7 +37,7 @@ header .slogan {
   color: #7b6079;
 }
 
-/* Hero Section */
+/* Hero(middle header) Section */
 .hero {
   display: flex;
   flex-wrap: wrap;
@@ -44,6 +47,8 @@ header .slogan {
   justify-content: space-between;
   padding: 60px 5%;
 }
+
+/*The megaphone pic*/
 
 .hero-image {
   flex: 1;
@@ -56,6 +61,8 @@ header .slogan {
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
+
+/*Slogan text ("Lets talk health...)*/
 
 .hero-text {
   flex: 1;
@@ -78,7 +85,7 @@ header .slogan {
 /* Boxes Section */
 .boxes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   padding: 40px 20px;
   background-color: #e7f0fd;
@@ -89,15 +96,9 @@ header .slogan {
   padding: 20px;
   border-radius: 15px;
   text-align: left;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
   color: inherit;
   border: 4px solid #dee2e6;
-}
-
-.box:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
 .box img {
@@ -116,3 +117,4 @@ header .slogan {
   font-size: 1.05rem;
   color: #3f3f3f;
 }
+
