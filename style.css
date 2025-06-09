@@ -10,7 +10,7 @@
 /* Body */
 body {
   background-color: #fffafc;
-  color: #333;
+  color:#333;;
 }
 
 /*list in the boxes(ask for help later to align with the titles in the text)*/
@@ -19,7 +19,7 @@ body {
 /* Header */
 header {
   background-color: #ffc8dd;
-  color: #4a4a4a;
+  color: #de2acf;;
   padding: 40px 20px 20px 20px;
   text-align: center;
   border-bottom: 4px solid #ffafcc;
@@ -34,7 +34,7 @@ header .slogan {
   font-size: 1.2rem;
   font-style: italic;
   letter-spacing: 1px;
-  color: #7b6079;
+  color: #333;
 }
 
 /* Hero(middle header) Section */
@@ -59,7 +59,7 @@ header .slogan {
   width: 100%;
   height: auto;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px #333;
 }
 
 /*Slogan text ("Lets talk health...)*/
@@ -72,13 +72,13 @@ header .slogan {
 .hero-text h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #865dff;
+  color:#de2acf;;
 }
 
 .hero-text p {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #555;
+  color: #333;
 }
 
 
@@ -88,7 +88,7 @@ header .slogan {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   padding: 40px 20px;
-  background-color: #e7f0fd;
+  background-color: #e5edf7;
 }
 
 .box {
@@ -96,10 +96,12 @@ header .slogan {
   padding: 20px;
   border-radius: 15px;
   text-align: left;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3px 10px #588abc;
   color: inherit;
   border: 4px solid #dee2e6;
 }
+
+/*Box insides*/
 
 .box img {
   width: 100%;
